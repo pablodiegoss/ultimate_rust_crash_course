@@ -73,5 +73,6 @@ impl Bite for Carrot {
 fn bunny_nibbles<T: Bite>(food: &mut T){
     for _ in 0..=5{
         food.bite();
+        
     }
 }
